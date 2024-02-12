@@ -11,7 +11,6 @@ function narcissistic(value) {
     }, 0);
     return sum == value;
 }
-console.log(narcissistic(153));
 
 
 //method 2
@@ -25,7 +24,6 @@ function narcissistic(value) {
     }
     return sum === value;
 }
-console.log(narcissistic(153));
 
 
 //method 3
@@ -34,12 +32,12 @@ const narcissistic = value =>{
     let numDIgit = numString.length;
     return value === numString.split('').reduce((acc, digit) => acc + Math.pow(parseInt(digit), numDIgit), 0);
 }
-console.log(narcissistic(153));
 
 
 //method 4
 const narcissistic = value =>   +(''+value).split('').reduce((s,n,_,a)=>s + Math.pow(n,a.length),0) == value;
-console.log(narcissistic(153));
+
 
 //method 5
 narcissistic=n=>[...''+n].reduce((p,c)=>p+c**(n+'').length,0)===n;
+console.log(narcissistic(153));
