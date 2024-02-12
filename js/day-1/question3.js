@@ -18,7 +18,7 @@ function solution(number){
 }
 let number = 10;
 let result = solution(number);
-console.log(result);
+
 
 
 //method 2
@@ -33,7 +33,7 @@ function solution(numbers) {
 }
 let numbers = 10;
 let results = solution(numbers);
-console.log(results);
+
 
 
 //method3
