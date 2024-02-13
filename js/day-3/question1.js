@@ -15,7 +15,7 @@ function duplicateEncode(word){
 
     return result.join('');
 }
-console.log(duplicateEncode("Success"));
+
 
 
 //method 2
@@ -25,7 +25,7 @@ function duplicateEncode(word) {
         lowercaseInput.indexOf(char) === lowercaseInput.lastIndexOf(char) ? "(" : ")"
     ).join('');
 }
-console.log(duplicateEncode("Success"));
+
 
 
 //method 3
