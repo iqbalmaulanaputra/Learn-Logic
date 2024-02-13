@@ -18,9 +18,9 @@ function spinWords(string) {
 }
 
 //method 3
-function spinWords(string) {
-    return string.split(' ').map(word => word.length >= 5 ? [...word].reverse().join('') : word).join(' ');
-}
+function spinWords(string){
+    return string.replace(/\w{5,}/g, function(w) { return w.split('').reverse().join('') })
+  }
 console.log(spinWords("Hey fellow warriors"));
 console.log(spinWords("This is a test"));
 console.log(spinWords("This is another test"));
