@@ -13,7 +13,13 @@ function findOdd(A) {
 //method 2
     function findOdd(A) {
         return A.reduce((result, num) => result ^ num, 0);
+    }   function findOdd(A) {
+        return A.reduce((result, num) => result ^ num, 0); function findOdd(A) {
+            return A.reduce((result, num) => result ^ num, 0);
+        }  
+    
     }  
+
 
 //method 3
 const findOdd = (xs) => xs.reduce((a, b) => a ^ b);    
