@@ -29,7 +29,6 @@ function isSolved(board) {
         }
       }
     }
-  
     return 0; 
   }
   
