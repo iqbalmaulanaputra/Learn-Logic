@@ -17,7 +17,6 @@ function seven(operation) { return operation ? operation(7) : 7; }
 function eight(operation) { return operation ? operation(8) : 8; }
 function nine(operation) { return operation ? operation(9) : 9; }
 
-
 function plus(num) { return (operand) => operand + num; }
 function minus(num) { return (operand) => operand - num; }
 function times(num) { return (operand) => operand * num; }
